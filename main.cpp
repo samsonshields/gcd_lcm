@@ -30,7 +30,7 @@ int find_gcd(int x, int y) {
 }
 
 int find_lcm(int x, int y) {
-    int gcd = find_gcd(x, y); // Use the GCD from the same input
+    int gcd = find_gcd(x, y);
     int lcm = (x * y) / gcd;
     return lcm;
 }
